@@ -62,6 +62,7 @@ $hotels = [
     <?php foreach ($hotels as $hotel){?>
       <li>
         <?php echo $hotel["name"]?>
+        <hr>
       </li>
 
       <li>
@@ -80,9 +81,9 @@ $hotels = [
         <?php echo $hotel["distance_to_center"]?>
       </li>
 
-      <?php } ?>
+    <?php } ?>
     
-  </ul>
+</ul>
     
     
 </body>
